@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ответы</title>
+  <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container text-center">
+  <H1 align="center">Заполните анкету</H1>
+  <form action="/index.jsp" method="POST">
+
+    Имя:   <input type="text" name="name"><Br>
+    Фамилия: <input type="text" align="left" name="surname"> <Br>
+    Возраст: <input type="text" align="left" name="age"> <Br>
+
+
+    <p><b>Как настроение сегодня?</b></p>
+    <input name="quest1" type="radio" value="nice" checked> Отлично<Br>
+    <input name="quest1" type="radio" value="ok"> Хорошо<Br>
+    <input name="quest1" type="radio" value="bad" > Плохо<Br>
+    <input name="quest1" type="radio" value="verybad" > Очень Плохо<Br>
+    <p><b>В какой сфере вы работаете?</b></p>
+    <input type="radio" name="quest2" value="it" checked>IT<Br>
+    <input type="radio" name="quest2" value="jur"> Юрист<Br>
+    <input type="radio" name="quest2" value="kult"> Культура<Br>
+    <input type="radio" name="quest2" value="medic"> Медицина<Br>
+    <input TYPE="submit" VALUE="Отправить">
+  </form>
+</div>
+</body>
+</html>
